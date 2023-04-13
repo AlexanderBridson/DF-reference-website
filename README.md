@@ -64,39 +64,50 @@
         - The <i> tage is used within a <p> tag to add italics to any texts without adding extra importance. It's usually used on on technological terms or different languages.
 
     - small
-        - The <small> tag is used within a <p> tag to decrease impotrance or a word or phrase within a sentence by reducing the size.
+        - The <small> tag is used within a <p> tag to decrease importance of a word or phrase within a sentence by reducing the size.
 
 6. Explain block Elements and also explain the list of block elements and why they are used from below:
-    - 
+    
+    - A block element is an element that's used within an html document and begins a new line of content and/or text. 
 
     - html
-        - 
+        - Hmtl is the language used to create a webpage. It's use to oragnize information on your website and create order. 
 
     - head
-        - 
+        - The head is an element within the index.html file that isn't a visible part fo the website. The head is used to link fonts, display the title of the webpage, include the metadata of the website, and more.  
 
     - body
         - 
 
     - header
+        - The header is the introductory content usually located at the top of the page. It would include a logo or company name and navigation for the website. It is used to separate the navigation and introductory elements from the body of the webpage.
 
     - nav
+        - The navigation element is located normally at the top of the page in forms of hyperlinks and/or buttons. They are used to link users to other areas on the page the current document or other documents.
 
     - main
+        - The main elements is used to wrap the main elements. It's used to tell the user where the main content is on the page.
 
     - section
+        - The section element is used to wrap related content into a section and usually has its own heading.
 
     - article
+        - The article element is used to wrap self contained content. It's used to allow the content to be independently distributable or reusable. 
 
     - div
+        - The div block element is used to group elements together.
 
     - aside
+        - The aside elements wraps content that's inddirectly related to the main content mostly displayed as a sidebar on the website. 
 
     - footer
+        - The footer element is located at the bottom of the page. It's most commonly used to display lists of links, copyright information, extra information about the company, and the terms and conditions.
 
     - span
+        - The span element is an inline container used to phrase/mark up text or a part of a document that doesn't inherently represent anything.
 
     - small
+        - The small element decrease the inportance of a word or sentence. It's used within a paragraph to decrease importance of a word or phrase within a sentence by reducing the size.
 
 7. Explain why accessibility is important and also explain the accessibility properties like:
     - landmark roles
