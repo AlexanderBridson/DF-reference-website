@@ -1,2 +1,143 @@
 # reference-website
-this is a read me file 
+
+1. Naming convention for all filenames, paths and folders
+    - Namming conventions for all filenames, paths, and folder should only have lowercase lettering, no spaces (use dashes or underscores instead), and only use letters, numbers and dahses (no symbols).
+
+2. Best practices for commit messages
+    - The best practises for commit messages is to do so when you finish a section. Your commit message should be descriptive of what u did in the section, and you may add extra details in the description section.
+
+3. What is HTML?
+    - Hmtl is the language used to create a webpage.
+
+4. Proper syntax for HTML tags
+    - The proper syntax for an html tags is for example <p> and </p>. 
+
+5. Explain or demonstrate commonly used html tags/elements:
+    - headings: h1-h6
+        - The h1 heading is used for the primary title/heading of the page and there is normally only one h1 on each .html page. The h2-h3 are used for other subtitles and sections going from important to least important. For example, a title would be h1, a section title would be h2, and then an article title would be h3.
+
+    - p: 
+        <p>Hello this is my example.</p>
+
+    - lists: ul, ol, dl
+        <ul>
+            <li>Item a</li>
+            <li>Item b</li>
+            <li>Item c</li>
+        </ul>
+        <ol>
+            <li>1. Wash item a</li>
+            <li>2. Cut item a into cubes</li>
+            <li>3. Place item a into a bowl</li>
+        </ol>
+        <dl>
+            <dt>This is an orange</li>
+            <dd>The orange is soft and bright</li>
+            <dd>The orange is sweet and seedless</li>
+        </dl>
+
+    - a
+        - The <a href=""></a> tag or otherwise known as the anchor tag and href attricubte are used for linking websites, other .html pages, and other locations within a page.
+
+    - img 
+        - The <img src="" alt=""> tag is used for linking images to an html document. The source attribute uses the links of the image to link it to the desired url page. The alt attribute is used to add more descriptive text to the image while in screen reader mood in order to create a more accessible website.  
+
+    - q 
+        - The <q> tag is used to mark quotes within a paragraph.
+
+    - blockquote
+        - The <blockquote> tag is used to display a quote tag on its own.
+
+    - cite
+        - The <cite> tag is used to display the source of a quote. It's usually placed inside the quote tag. For example, <q><cite>Insert source link</cite>Insert quote</q> 
+
+    - em
+        - The <em> within a <p> tag is used to emphasis a particular word or phrase within a sentence by italicizing it.
+
+    - strong
+        - The <strong> tag is used within a <p> tag to emphasize a particular word or phrase within a sentence by putting it in bold.
+
+    - b
+        - The <b> tage is used within a <p> tag to add bold to any text without adding extra importance.
+
+    - i
+        - The <i> tage is used within a <p> tag to add italics to any texts without adding extra importance. It's usually used on on technological terms or different languages.
+
+    - small
+        - The <small> tag is used within a <p> tag to decrease impotrance or a word or phrase within a sentence by reducing the size.
+
+6. Explain block Elements and also explain the list of block elements and why they are used from below:
+    - 
+
+    - html
+        - 
+
+    - head
+        - 
+
+    - body
+        - 
+
+    - header
+
+    - nav
+
+    - main
+
+    - section
+
+    - article
+
+    - div
+
+    - aside
+
+    - footer
+
+    - span
+
+    - small
+
+7. Explain why accessibility is important and also explain the accessibility properties like:
+    - landmark roles
+
+    - aria labels
+
+    - image alternative texts
+
+
+8. What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file)
+
+9. What is the difference between CSS property and value (write explanation and an example code)
+
+10. Why do we use border-box property in CSS?
+
+11. Explain different type of ways we can add spacing to an element
+
+12. What is the main difference between margin and padding?
+
+13. What are different types of display properties?
+
+14. Write a brief explanation of flexbox property
+
+15. What are different types of flexbox properties and what is the major difference between them?
+
+16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property
+
+17. Write a code example on how you will use a flexbox property on a parent element with sub properties.
+
+18. What is CSS grid property?
+
+19. Write the parent and two sub-properties used for CSS Grid Property.
+
+20. What is the difference between display: flex and display: grid?
+
+21. What sub-property we use to divide elements in CSS Grid properties?
+
+22. What unit we use to fractionally divide the element width in CSS Grid property and what are others unit we can use alternatively? (Write a code example)
+
+23. What is the area property in CSS grid we use for the child elements?
+
+24. Which sub-property of display grid you can use to prevent displaying empty columns. Write a code example of that property.
+
+25. Explain the steps to add google fonts to your CSS file and how will you link it to the html file.
