@@ -146,7 +146,7 @@
     - The flexbox property is used to allows the user/coder to apply complex and unique layouts to elements on an html. It does so by changign to flow and alignmnet of elements.
 
 15. What are different types of flexbox properties and what is the major difference between them?
-    - 
+    - Different types of flexbox properties are flex, inline-flex, flex direction, wrapping flex items, and justification & alignmnets. The main difference between these elements is that flex direction property only allows for elements to change in one direction in the flex container, the flex container when wrapping can break elements into differents lines or wrap/contain them, justification & alignmnets allows you to control the position/placement and alignment of the itmes wihtin the flex container and control the space between the flex items.
 
 16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property
 
