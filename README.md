@@ -167,19 +167,24 @@
         display: flex;
         flex-direction: row
         flex-wrap: nowrap;
-        justify-items: start;
+        justify-items: flex-start;
         align-items: stretch;
     }  
 
 18. What is CSS grid property?
+    - CSS grid property allows you to set the value of all row (emplicit) and column (implicit) properties within the grid at once.  
 
 19. Write the parent and two sub-properties used for CSS Grid Property.
+    - The parent property used for CSS Grid Property is a grid container. The two sub properties of a grid container are display: grid and grid templates.
 
 20. What is the difference between display: flex and display: grid?
+    - the difference between the two is display: flex targets either rows or columns and display: grid targets both rows and columns at the same time.
 
 21. What sub-property we use to divide elements in CSS Grid properties?
+    - You would use the grid-template-rows property to divide elements in CSS Grid Properties.
 
 22. What unit we use to fractionally divide the element width in CSS Grid property and what are others unit we can use alternatively? (Write a code example)
+    - The unit we use to fractionally divide the elements width in CSS Grid property is fr. Other possible units are percentages (%) or pixels (px).
 
 23. What is the area property in CSS grid we use for the child elements?
 
