@@ -76,8 +76,8 @@
     - head
         - The head is an element within the index.html file that isn't a visible part fo the website. The head is used to link fonts, display the title of the webpage, include the metadata of the website, and more.  
 
-    - body
-        - 
+    -  body
+        - The body element is used to group all important informatin a orage webpage.
 
     - header
         - The header is the introductory content usually located at the top of the page. It would include a logo or company name and navigation for the website. It is used to separate the navigation and introductory elements from the body of the webpage.
@@ -110,14 +110,18 @@
         - The small element decrease the inportance of a word or sentence. It's used within a paragraph to decrease importance of a word or phrase within a sentence by reducing the size.
 
 7. Explain why accessibility is important and also explain the accessibility properties like:
-    - landmark roles
+    - Accessibility is important when creating a website because it invites all people to enjoy and interact with your site.
 
-    - aria labels
+    - Landmark roles
+        - Landmarks roles are important because they allow viewers who may be using a screen reader to jump straight to specific content on the webpage.
 
-    - image alternative texts
+    - Aria labels are important because they offer more information to someone who are using screen recordiers.
 
+    - Image alternative texts are imporatant because it allows a viewer with visiual impairments to view the image with the help of a screen reader.
 
 8. What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file)
+    - CSS is short for Cascading Style Sheets. CSS is to manipulate the appearance of html pages.
+    
 
 9. What is the difference between CSS property and value (write explanation and an example code)
 
