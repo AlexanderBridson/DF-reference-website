@@ -123,7 +123,7 @@
     - CSS is short for Cascading Style Sheets. CSS is to manipulate the appearance of html pages. To link the CSS to the html you much attach it using this code <link rel="stylesheet" href="css/style.css"> within the head of the .html page.
 
 9. What is the difference between CSS property and value (write explanation and an example code)
-    - A CSS property is the design your adding to your html such as colour, width, and border. A CSS value is the value/descriptor/size of the property such as green, 40px, 4rem, and 2em.
+    - A CSS property is the design your adding to your html such as colour, width, and border. A CSS value is the value/descriptor/size of the property such as green, 40px, 4rem, and 2em. That said the difference between the two is that a CSS property is design element itself and a CSS value is just the value of the property. 
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
@@ -131,10 +131,13 @@
         }
 
 10. Why do we use border-box property in CSS?
+    - We use border-box property in CSS because it includes the border and padding within the width and height. 
 
 11. Explain different type of ways we can add spacing to an element
+    - Different type of ways we can add spacing to an element is with margin and padding. Padding adds space to an elements space like withing it's border and margin adds space to any extra space the element has within it's box area.
 
 12. What is the main difference between margin and padding?
+    - The main differeence between the two is that margin represenets the space outside an element like a box and padding represents the spacing inside an element like a box.
 
 13. What are different types of display properties?
 
