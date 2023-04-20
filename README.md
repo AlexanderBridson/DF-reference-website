@@ -140,10 +140,13 @@
     - The main differeence between the two is that margin represenets the space outside an element like a box and padding represents the spacing inside an element like a box.
 
 13. What are different types of display properties?
+    - Different types of display properties are display inline, block, inline-block, and none.
 
-14. Write a brief explanation of flexbox property
+14. Write a brief explanation of flexbox property.
+    - The flexbox property is used to allows the user/coder to apply complex and unique layouts to elements on an html. It does so by changign to flow and alignmnet of elements.
 
 15. What are different types of flexbox properties and what is the major difference between them?
+    - 
 
 16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property
 
