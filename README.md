@@ -112,12 +112,14 @@
 7. Explain why accessibility is important and also explain the accessibility properties like:
     - Accessibility is important when creating a website because it invites all people to enjoy and interact with your site.
 
-    - Landmark roles
+    - landmark roles
         - Landmarks roles are important because they allow viewers who may be using a screen reader to jump straight to specific content on the webpage.
 
-    - Aria labels are important because they offer more information to someone who are using screen recordiers.
+    - aria labels
+        - Aria labels are important because they offer more information to someone who are using screen recordiers.
 
-    - Image alternative texts are imporatant because it allows a viewer with visiual impairments to view the image with the help of a screen reader.
+    - image alternative 
+        - Image alternative texts are imporatant because it allows a viewer with visiual impairments to view the image with the help of a screen reader.
 
 8. What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file)
     - CSS is short for Cascading Style Sheets. CSS is to manipulate the appearance of html pages. To link the CSS to the html you much attach it using this code <link rel="stylesheet" href="css/style.css"> within the head of the .html page.
@@ -187,7 +189,15 @@
     - The unit we use to fractionally divide the elements width in CSS Grid property is fr. Other possible units are percentages (%) or pixels (px).
 
 23. What is the area property in CSS grid we use for the child elements?
+    - for the child element in CSS Grip property we use the grid-area property.
 
 24. Which sub-property of display grid you can use to prevent displaying empty columns. Write a code example of that property.
+    - You can use the sub-property grid-gap to prevent/control displaying empty columns.
+        .grid.container {
+            display: grid
+            grid-templates-columns: auto auto auto auto;
+            grid-gap: 60px
+        }
 
 25. Explain the steps to add google fonts to your CSS file and how will you link it to the html file.
+    - The first step to adding google fonts to your CSS file is to go to google fonts. From there, once you find the font you need/like clikc it so you may see the full font family. Now you need to click the select button beside the type faces you want. Once you have your fonts selected you should see a pop up on the right side of your screen that says selected family. If you scroll all the way tot he bottom of that pop up there will be a section called "CSS rules to specify families". Select the text in that section, copy it and then past it into your CSS under body. To link it to your html, in the same pop up right above the "CSS rules to specify families" section theres a different section with text. Select that text, copy it and then pst it into the head of your html under the last <meta>. 
