@@ -156,17 +156,20 @@
     </section>
     section {
         display: flex;
-    }
-            OR
+    } 
+
+17. Write a code example on how you will use a flexbox property on a parent element with sub properties.
+    <section>
+        <div></div>
+        <div></div>
+    </section>
     section {
         display: flex;
         flex-direction: row
         flex-wrap: nowrap;
         justify-items: start;
         align-items: stretch;
-    }   
-
-17. Write a code example on how you will use a flexbox property on a parent element with sub properties.
+    }  
 
 18. What is CSS grid property?
 
