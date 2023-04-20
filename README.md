@@ -148,7 +148,23 @@
 15. What are different types of flexbox properties and what is the major difference between them?
     - Different types of flexbox properties are flex, inline-flex, flex direction, wrapping flex items, and justification & alignmnets. The main difference between these elements is that flex direction property only allows for elements to change in one direction in the flex container, the flex container when wrapping can break elements into differents lines or wrap/contain them, justification & alignmnets allows you to control the position/placement and alignment of the itmes wihtin the flex container and control the space between the flex items.
 
-16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property
+16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property.
+    - The flexbox property of flex container is used by targeting the parent element and adding a display: flex property in css. Also with display flex there's preset flex properties such as felx directio set to row, justfications & alignment set to the start egdge and strecth, and wrap set to nowrap.
+    <section>
+        <div></div>
+        <div></div>
+    </section>
+    section {
+        display: flex;
+    }
+            OR
+    section {
+        display: flex;
+        flex-direction: row
+        flex-wrap: nowrap;
+        justify-items: start;
+        align-items: stretch;
+    }   
 
 17. Write a code example on how you will use a flexbox property on a parent element with sub properties.
 
