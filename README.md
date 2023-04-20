@@ -120,10 +120,15 @@
     - Image alternative texts are imporatant because it allows a viewer with visiual impairments to view the image with the help of a screen reader.
 
 8. What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file)
-    - CSS is short for Cascading Style Sheets. CSS is to manipulate the appearance of html pages.
-    
+    - CSS is short for Cascading Style Sheets. CSS is to manipulate the appearance of html pages. To link the CSS to the html you much attach it using this code <link rel="stylesheet" href="css/style.css"> within the head of the .html page.
 
 9. What is the difference between CSS property and value (write explanation and an example code)
+    - A CSS property is the design your adding to your html such as colour, width, and border. A CSS value is the value/descriptor/size of the property such as green, 40px, 4rem, and 2em.
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            color: green;
+        }
 
 10. Why do we use border-box property in CSS?
 
